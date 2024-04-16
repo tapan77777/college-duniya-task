@@ -1,0 +1,34 @@
+/* Styles for table and headings */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    text-align: left;
+    padding: 12px;
+    border-bottom: 1px solid #5aa3b8;
+}
+
+th {
+    background-color: #6ecec9;
+    cursor: pointer;
+}
+
+/* Style for load more button */
+#loadMore {
+    cursor: pointer;
+    padding: 12px 20px;
+    text-align: center;
+    background-color: #007bff;
+    color: #fff;
+    margin: 10px 0;
+    border: none;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+#loadMore:hover {
+    background-color: #0056b3;
+}
